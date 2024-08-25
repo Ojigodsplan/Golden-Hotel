@@ -1,0 +1,425 @@
+@media screen and (max-width:600px){
+   header, section, footer {width: 100%;}
+}
+
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    font-size: 1.2rem;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding-left: 20px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.container a img{
+width: 100px;
+height: 70px;
+}
+
+.write {
+    text-align: center;
+    padding-top:150px ;
+}
+
+.wr {
+    font-size: 30px;
+    margin-bottom: 210px;
+}
+
+.edit a{
+    text-decoration: none;
+}
+
+header, footer {
+    background: linear-gradient(135deg, red, orange, green, yellow, blue, purple, black);
+    color: #fff;
+    padding: 1rem 0;
+    width: 100%;
+    height: 100px;
+}
+
+header nav ul {
+    list-style: none;
+    text-align: right;
+    padding-right: 50px;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 10px;
+}
+
+header nav ul li a:hover {
+color: aqua;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header img {
+    width: 180px;
+    height: 120px;
+    float: left;
+    padding: 10px;
+}
+
+#hero {
+    background: url(img/hotel\ image\ front\ view.jpg);
+    color: white;
+    text-align: center;
+    padding: 5rem 0;
+    height: 600px;  
+}
+
+#hero h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+#hero p {
+    padding-bottom: 1.5rem;
+}
+
+#nav-bar {
+float: right;
+cursor: pointer;
+}
+
+.btn {
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background: #555;
+}
+
+#rooms {
+    padding: 1rem 0;
+    background: #555;
+}
+
+.room {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.room img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+
+footer {
+    text-align: center;
+    color: #fff;     
+    clear: both;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* For contact page */
+#contact {
+    padding: 5rem 0;
+}
+
+form {
+    margin-top: 2rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+} 
+
+aside {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    padding: 15px;
+    height: fit-content;
+}
+
+.jjj {
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+    height: fit-content;
+
+}
+
+.box {
+    box-sizing: border-box;
+    width: fit-content;
+    width: 32.5%;
+    background-color: black;
+    padding: 20px; 
+    margin: 5px;
+    float: left;
+    border-radius: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    height: 500px;
+}
+
+.box img {
+    border-radius: 100%;
+    border: 5px white solid;
+}
+
+/* For rooms page */
+
+#rooms {
+    padding: 5rem 0;
+    color: white;
+}
+
+.room {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.room img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+
+header h1 {
+text-align: left;
+}
+
+.contain {
+    max-width: 600px;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.1); 
+}
+
+/* For Booking Page */
+
+.containers {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+input[type="submit"]:focus {
+    outline: none;
+}
+
+.note {
+    margin: 70px;
+}
+
+.but a {
+color: white;
+text-decoration: none;
+}
+
+.but {
+    margin-top: 4px;
+    text-decoration: none;
+    text-align: center;
+    animation-name: colorChange;
+    animation-duration: 15s;
+    box-shadow: 0px 0pc 10px black;
+    border-radius: 5px;
+}
+
+@keyframes colorChange{
+    0%{background-color: red;}
+    20%{background-color: orange;}
+    40%{background-color: green;}
+    60%{background-color: yellow;}
+    80%{background-color: blue;}
+    100%{background-color: purple;}
+}
+
+/* For restaurant page */
+
+
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+.restaurant-intro {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.menu {
+    margin: 20px 0;
+}
+
+.menu-category {
+    margin-bottom: 20px;
+}
+
+.menu-category h3 {
+    border-bottom: 2px solid #FFD700;
+    padding-bottom: 5px;
+}
+
+.menu-category ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu-category ul li {
+    padding: 5px 0;
+}
+
+.reservation {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btns {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FFD700;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btns:hover {
+    background-color: #FFC107;
+}
+
+footer {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    bottom: 0;
+}
+
+
+   

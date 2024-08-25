@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge, chrome, firefox">
+    <meta name="keywords" content="Golden Hotel, luxury comfort, accommodations">
+    <meta name="description" content="Welcome to the most top-notch and extraordinary hotel in Nigeria">
+    <meta name="author" content="Oji Goddy">
+    <title>Booking & Reservation - Golden Hotel</title>
+    <link rel="icon" href="img/logo.jpg">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobile.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <a href="index.html"><img src="img/logo.jpg" alt="Golden hotel logo"></a>
+            <h1 class="edit"> <a href="index.html">Golden Hotel</a></h1>
+            
+            <nav id="nav-bar">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="rooms.html">Rooms</a></li>
+                    <li><a href="restuarant.html">Restaurant</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section>
+        <div class="containers">
+            <h1>Booking and Reservation</h1>
+        
+            <form action="submit_booking.php" method="POST">
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname" required placeholder="Please enter your fullname">
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required placeholder="Please enter your email">
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required placeholder="Please enter your phone number">
+
+                <label for="checkin">Check-in Date:</label>
+                <input type="date" id="checkin" name="checkin" required>
+
+                <label for="checkout">Check-out Date:</label>
+                <input type="date" id="checkout" name="checkout" required>
+
+                <label for="message">Additional Notes:</label>
+                <textarea id="message" name="message" rows="4"></textarea>
+
+                <input type="submit" value="Submit Reservation">
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container"> <br> <br>
+            <p>&copy; 2024 Golden Hotel. All rights reserved.</p>
+            <ul>
+                <li><a href="#">Terms of Service</a></li>
+                <li><a href="pp.html">Privacy Policy</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    </body>
+</html>
